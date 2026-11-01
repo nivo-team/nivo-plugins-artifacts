@@ -1,0 +1,4 @@
+﻿# 产物本身不进 git：走 GitHub Releases（tag plugins-latest）
+artifacts/
+*.js.map
+node_modules/
