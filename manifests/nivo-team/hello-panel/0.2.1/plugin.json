@@ -24,5 +24,12 @@
     "url": "https://github.com/nivo-team/nivo-plugins-artifacts/releases/download/plugins-latest/nivo-team-hello-panel-v0.2.1.js",
     "sha256": "fddaa37955bfb7471c35524c5bbde7894ba790cf98b18ad3ef9040111b0cb474",
     "size": 869013
-  }
+  },
+  "permissions": [
+    {
+      "id": "host.context.read",
+      "reasonKey": "plugin.hello.permission.hostContext",
+      "default": "granted"
+    }
+  ]
 }
