@@ -28,7 +28,7 @@
   "permissions": [
     {
       "id": "host.context.read",
-      "reasonKey": "plugin.hello.permission.hostContext",
+      "reasonKey": "plugin.nivo-team.hello-panel.permissionHostContext",
       "default": "granted"
     }
   ]

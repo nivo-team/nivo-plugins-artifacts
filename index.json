@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T16:28:25.737Z",
+  "generatedAt": "2026-11-01T17:13:21.035Z",
   "plugins": [
     {
       "id": "ai",
@@ -25,7 +25,7 @@
         "size": 2952992
       },
       "manifestUrl": "https://raw.githubusercontent.com/nivo-team/nivo-plugins-artifacts/main/manifests/ai/1.0.0/plugin.json",
-      "updatedAt": "2026-11-01T16:28:25.732Z"
+      "updatedAt": "2026-11-01T17:13:21.030Z"
     },
     {
       "id": "json-page",
@@ -44,7 +44,7 @@
         "sha256": "f259d9593e09a5c5e931b9e4daf670e879d84656936f21c5bb2964c80062b20b",
         "size": 1070970
       },
-      "updatedAt": "2026-11-01T16:28:25.735Z"
+      "updatedAt": "2026-11-01T17:13:21.032Z"
     },
     {
       "id": "nivo-team/hello-panel",
@@ -65,7 +65,7 @@
         "size": 869013
       },
       "manifestUrl": "https://raw.githubusercontent.com/nivo-team/nivo-plugins-artifacts/main/manifests/nivo-team/hello-panel/0.2.1/plugin.json",
-      "updatedAt": "2026-11-01T16:28:25.737Z"
+      "updatedAt": "2026-11-01T17:13:21.033Z"
     }
   ]
 }
