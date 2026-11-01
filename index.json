@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T11:27:43.971Z",
+  "generatedAt": "2026-11-01T12:52:51.858Z",
   "plugins": [
     {
       "id": "ai",
@@ -25,7 +25,7 @@
         "size": 2952992
       },
       "manifestUrl": "https://raw.githubusercontent.com/nivo-team/nivo-plugins-artifacts/main/manifests/ai/1.0.0/plugin.json",
-      "updatedAt": "2026-11-01T11:27:43.965Z"
+      "updatedAt": "2026-11-01T12:52:51.854Z"
     },
     {
       "id": "json-page",
@@ -44,14 +44,14 @@
         "sha256": "40847cf8adf53dfcea117389e0e5e73860c9283b5112314a8af88508589a0f17",
         "size": 1070949
       },
-      "updatedAt": "2026-11-01T11:27:43.967Z"
+      "updatedAt": "2026-11-01T12:52:51.855Z"
     },
     {
       "id": "nivo-team/hello-panel",
       "name": "问候面板",
-      "version": "0.1.0",
-      "summary": "示例第三方插件：在右侧面板画一张问候卡片，用来验证「装一个 js」的完整链路。",
-      "description": "示例第三方插件：在右侧面板画一张问候卡片，用来验证「装一个 js」的完整链路。",
+      "version": "0.2.0",
+      "summary": "示例第三方插件（v0.2.0）：在右侧面板画一张问候卡片，用来验证「装一个 js」与「可更新」的完整链路。",
+      "description": "示例第三方插件（v0.2.0）：在右侧面板画一张问候卡片，用来验证「装一个 js」与「可更新」的完整链路。",
       "author": "Nivo Official",
       "official": false,
       "apiVersion": "^1",
@@ -60,12 +60,12 @@
         "shell.panel"
       ],
       "entry": {
-        "url": "https://github.com/nivo-team/nivo-plugins-artifacts/releases/download/plugins-latest/nivo-team-hello-panel-v0.1.0.js",
-        "sha256": "d24ec38a60efbb724f893615fa84f50c78ecb4900b2e1619e27db19cad392f29",
-        "size": 868975
+        "url": "https://github.com/nivo-team/nivo-plugins-artifacts/releases/download/plugins-latest/nivo-team-hello-panel-v0.2.0.js",
+        "sha256": "b9e5b172602afc83bc9b4e554f16fa8ac3ec1161869989e7edb121de5625a862",
+        "size": 869020
       },
-      "manifestUrl": "https://raw.githubusercontent.com/nivo-team/nivo-plugins-artifacts/main/manifests/nivo-team/hello-panel/0.1.0/plugin.json",
-      "updatedAt": "2026-11-01T11:27:43.969Z"
+      "manifestUrl": "https://raw.githubusercontent.com/nivo-team/nivo-plugins-artifacts/main/manifests/nivo-team/hello-panel/0.2.0/plugin.json",
+      "updatedAt": "2026-11-01T12:52:51.857Z"
     }
   ]
 }
