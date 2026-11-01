@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "meta": {
+    "id": "nivo-team/hello-panel",
+    "apiVersion": "^1",
+    "version": "0.4.0",
+    "official": false,
+    "name": "问候面板",
+    "description": "示例第三方插件：在右侧面板画一张问候卡片，用来验证「装一个 js」「可更新」「能力授权」的完整链路。",
+    "author": "Nivo Official",
+    "icon": "sparkle",
+    "requires": [
+      "host.env"
+    ],
+    "slots": [
+      {
+        "slot": "shell.panel",
+        "key": "hello-panel",
+        "description": "问候卡片面板"
+      }
+    ]
+  },
+  "entry": {
+    "url": "https://github.com/nivo-team/nivo-plugins-artifacts/releases/download/plugins-latest/nivo-team-hello-panel-v0.4.0.js",
+    "sha256": "587c897fc924448372b63ba332ab13a8278378a7bb7a07a648c61a32cc575f90",
+    "size": 870424
+  },
+  "permissions": [
+    {
+      "id": "host.context.read",
+      "reasonKey": "plugin.nivo-team.hello-panel.permissionHostContext",
+      "default": "granted"
+    },
+    {
+      "id": "external.open",
+      "reasonKey": "plugin.nivo-team.hello-panel.permissionExternalOpen"
+    }
+  ]
+}
