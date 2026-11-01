@@ -1,0 +1,52 @@
+{
+  "manifestVersion": 1,
+  "meta": {
+    "id": "ai",
+    "apiVersion": "^1",
+    "version": "1.0.0",
+    "official": true,
+    "essential": true,
+    "name": "AI 智能助手",
+    "description": "提供分屏/浮窗对话面板、全屏 Sphere 工作台、页面上下文感知与 21 项受控工具调用能力。",
+    "author": "Nivo Official",
+    "icon": "sparkle",
+    "requires": [
+      "host.env"
+    ],
+    "provides": [
+      "ai.controller"
+    ],
+    "slots": [
+      {
+        "slot": "shell.panel",
+        "key": "ai-panel",
+        "description": "外壳右侧分屏/浮窗 AI 对话面板"
+      },
+      {
+        "slot": "settings.section",
+        "key": "ai-permission-config",
+        "description": "AI 能力授权矩阵配置区块"
+      },
+      {
+        "slot": "route.page",
+        "key": "sphere-layout",
+        "description": "全屏 Sphere 对话页主布局"
+      },
+      {
+        "slot": "route.page",
+        "key": "sphere-new-session",
+        "description": "全屏 Sphere 新建会话页"
+      },
+      {
+        "slot": "route.page",
+        "key": "sphere-chat-session",
+        "description": "全屏 Sphere 指定会话页"
+      }
+    ]
+  },
+  "entry": {
+    "url": "https://github.com/nivo-team/nivo-plugins-artifacts/releases/download/plugins-latest/ai-v1.0.0.js",
+    "sha256": "b7f4abb0596162c601bf11c09cd00d970d0ca420a2fcd8a9f659296b87b35269",
+    "size": 2952992
+  }
+}
